@@ -1,0 +1,53 @@
+https://proglib.io/p/git-cheatsheet
+git --version
+git status
+git status --short
+git add file.txt
+git help [command]
+git help [command] -h (for short)
+-f or --flag (flags)
+| (or)
+cd
+mkdir
+git init
+cd .. (for up)
+cp  [in] [out]
+git add [file]/[directory]
+git commit -m «[message]»
+git log
+git log --oneline (for short)
+git clone
+git remote -v 
+git remote add <name> <url>
+git push -u origin master
+git push (later)
+git log --graph
+git hash-object <file>
+git show [4 letters for sha-1/more]
+q (for quit)
+git show HEAD
+~ (refer to a parent)
+~~ (parent’s parents)
+^ (first parent)
+^2 (second parent)
+^^ (first paren’s first parent)
+git tag (show tags)
+git tag [tag] [commit] (make a tag) 
+git tag -a [-m <msg> | -F <file>] (for annotated tag)
+git push --tags 
+git branch
+git branch <name> 
+git checkout
+git checkout -b (create&switch)
+git branch -d
+git reflog
+git merge [branch]
+git merge --no-ff (for merge commit) 
+git branch --all
+git fetch <repo>
+git rebase
+git rebase --continue 
+git rebase --abort 
+git commit --amend (for changing commit)
+git rebase -i
+git merge --squash
